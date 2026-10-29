@@ -1,0 +1,313 @@
+{
+    "activity_logs": [
+        "id (bigint unsigned)",
+        "user_id (bigint unsigned)",
+        "action (varchar(255))",
+        "description (varchar(255))",
+        "ip_address (varchar(255))",
+        "user_agent (varchar(255))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "bidang_keahlian": [
+        "id_bidang_keahlian (int)",
+        "nama_bidang (varchar(150))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "cache": [
+        "key (varchar(255))",
+        "value (mediumtext)",
+        "expiration (bigint)"
+    ],
+    "catatan_wali_kelas": [
+        "id_catatan (int unsigned)",
+        "id_siswa (int unsigned)",
+        "id_tahun_ajaran (int unsigned)",
+        "id_kelas (int)",
+        "id_semester (int)",
+        "catatan (text)",
+        "status_kenaikan (enum('naik','tinggal'))",
+        "jenis_catatan (enum('prestasi','pelanggaran','umum'))",
+        "status (varchar(255))",
+        "sakit (smallint unsigned)",
+        "izin (smallint unsigned)",
+        "alpa (smallint unsigned)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "ekstrakurikuler": [
+        "id_ekstrakurikuler (bigint unsigned)",
+        "nama (varchar(100))",
+        "deskripsi (text)",
+        "status (enum('aktif','non-aktif'))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "guru": [
+        "id_guru (int)",
+        "user_id (bigint unsigned)",
+        "nip (varchar(255))",
+        "jenis_kelamin (enum('L','P'))",
+        "tempat_lahir (varchar(255))",
+        "tanggal_lahir (date)",
+        "alamat (text)",
+        "no_telepon (varchar(255))",
+        "email (varchar(255))",
+        "status (varchar(255))",
+        "nama (varchar(100))",
+        "gelar_depan (varchar(30))",
+        "gelar_belakang (varchar(30))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "guru_mapel": [
+        "id_guru_mapel (int)",
+        "id_guru (int)",
+        "id_mapel (int)",
+        "id_kelas (int)",
+        "id_tahun_ajaran (int)",
+        "id_semester (int)",
+        "created_at (timestamp)",
+        "status (varchar(20))"
+    ],
+    "jadwal_pelajaran": [
+        "id_jadwal (int unsigned)",
+        "id_kelas (int)",
+        "id_mapel (int)",
+        "id_guru (int)",
+        "id_tahun_ajaran (int)",
+        "id_semester (int)",
+        "hari (varchar(15))",
+        "jam_mulai (time)",
+        "jam_selesai (time)",
+        "jam_mengajar (varchar(50))",
+        "jam_istirahat (varchar(100))",
+        "ruangan (varchar(50))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "job_batches": [
+        "id (varchar(255))",
+        "name (varchar(255))",
+        "total_jobs (int)",
+        "pending_jobs (int)",
+        "failed_jobs (int)",
+        "failed_job_ids (longtext)",
+        "options (mediumtext)",
+        "cancelled_at (int)",
+        "created_at (int)",
+        "finished_at (int)"
+    ],
+    "jobs": [
+        "id (bigint unsigned)",
+        "queue (varchar(255))",
+        "payload (longtext)",
+        "attempts (smallint unsigned)",
+        "reserved_at (int unsigned)",
+        "available_at (int unsigned)",
+        "created_at (int unsigned)"
+    ],
+    "kelas": [
+        "id_kelas (int)",
+        "nama (varchar(50))",
+        "tingkat (enum('X','XI','XII'))",
+        "is_finalized (tinyint(1))",
+        "created_at (timestamp)",
+        "id_wali_kelas (int)",
+        "id_tahun_ajaran (int unsigned)",
+        "id_konsentrasi_keahlian (int)"
+    ],
+    "kokurikuler": [
+        "id_kokurikuler (bigint unsigned)",
+        "id_siswa (int)",
+        "id_semester (int)",
+        "id_tahun_ajaran (int)",
+        "deskripsi (text)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "konsentrasi_keahlian": [
+        "id_konsentrasi_keahlian (int)",
+        "id_program_keahlian (int)",
+        "nama_konsentrasi (varchar(150))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "mapel": [
+        "id_mapel (int)",
+        "kode_mapel (varchar(20))",
+        "kelompok_mapel (varchar(50))",
+        "kkm (tinyint unsigned)",
+        "nama (varchar(100))",
+        "created_at (timestamp)",
+        "status (enum('aktif','non-aktif'))",
+        "updated_at (timestamp)",
+        "urutan (int)"
+    ],
+    "migrations": [
+        "id (int unsigned)",
+        "migration (varchar(255))",
+        "batch (int)"
+    ],
+    "nilai_ekstrakurikuler": [
+        "id_nilai_ekstra (bigint unsigned)",
+        "id_siswa (bigint unsigned)",
+        "id_ekstrakurikuler (bigint unsigned)",
+        "id_tahun_ajaran (bigint unsigned)",
+        "id_semester (int)",
+        "nilai (int)",
+        "keterangan (varchar(50))",
+        "deskripsi (text)",
+        "status (varchar(255))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "nilai_tp": [
+        "id_nilai_tp (int)",
+        "id_siswa (int)",
+        "id_mapel (int)",
+        "id_guru_mapel (int)",
+        "id_semester (int)",
+        "id_tujuan_pembelajaran (int)",
+        "nilai_th1 (decimal(5,2))",
+        "nilai_th2 (decimal(5,2))",
+        "nilai_uh1 (decimal(5,2))",
+        "nilai_uh2 (decimal(5,2))",
+        "nilai_akhir_tp (decimal(5,2))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)",
+        "nilai_as (decimal(5,2))",
+        "status_nilai (enum('draft','submitted','approved','locked'))"
+    ],
+    "password_reset_tokens": [
+        "email (varchar(255))",
+        "token (varchar(255))",
+        "created_at (timestamp)"
+    ],
+    "program_keahlian": [
+        "id_program_keahlian (int)",
+        "id_bidang_keahlian (int)",
+        "nama_program (varchar(150))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "push_notifications": [
+        "id (bigint unsigned)",
+        "title (varchar(255))",
+        "body (text)",
+        "icon (varchar(255))",
+        "url (varchar(255))",
+        "target_role (varchar(255))",
+        "target_user_id (bigint unsigned)",
+        "sent_by (varchar(255))",
+        "delivered_count (int unsigned)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "push_subscriptions": [
+        "id (bigint unsigned)",
+        "user_id (bigint unsigned)",
+        "endpoint (varchar(500))",
+        "p256dh_key (varchar(255))",
+        "auth_token (varchar(255))",
+        "device_name (varchar(255))",
+        "is_active (tinyint(1))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "rapor_status": [
+        "id_rapor_status (bigint unsigned)",
+        "id_siswa (int)",
+        "id_semester (int)",
+        "id_tahun_ajaran (int)",
+        "status (enum('draft','dikirim','diverifikasi'))",
+        "dikirim_oleh (varchar(255))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "semester": [
+        "id_semester (int)",
+        "nama (varchar(20))",
+        "created_at (timestamp)"
+    ],
+    "sessions": [
+        "id (varchar(255))",
+        "user_id (bigint unsigned)",
+        "ip_address (varchar(45))",
+        "user_agent (text)",
+        "payload (longtext)",
+        "last_activity (int)"
+    ],
+    "settings": [
+        "id (bigint unsigned)",
+        "key (varchar(255))",
+        "value (text)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "siswa": [
+        "id_siswa (int)",
+        "user_id (bigint unsigned)",
+        "nisn (varchar(20))",
+        "nis (varchar(20))",
+        "nama (varchar(100))",
+        "jenis_kelamin (enum('L','P'))",
+        "tempat_lahir (varchar(255))",
+        "tanggal_lahir (date)",
+        "alamat (text)",
+        "no_hp (varchar(255))",
+        "status (varchar(255))",
+        "id_kelas (int)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)",
+        "agama (varchar(20))",
+        "nama_ayah (varchar(100))",
+        "nama_ibu (varchar(100))",
+        "no_hp_ortu (varchar(20))"
+    ],
+    "tahun_ajaran": [
+        "id_tahun_ajaran (int)",
+        "tahun_ajaran (varchar(20))",
+        "created_at (timestamp)",
+        "semester_aktif (enum('1','2'))",
+        "tanggal_mulai (date)",
+        "tanggal_selesai (date)",
+        "status (enum('aktif','non-aktif'))",
+        "updated_at (timestamp)"
+    ],
+    "tujuan_pembelajaran": [
+        "id_tujuan_pembelajaran (int)",
+        "id_mapel (int)",
+        "kode_tp (int)",
+        "tingkat (varchar(5))",
+        "id_semester (int)",
+        "urutan (tinyint unsigned)",
+        "deskripsi (text)",
+        "created_at (timestamp)"
+    ],
+    "user_notifications": [
+        "id (bigint unsigned)",
+        "user_id (bigint unsigned)",
+        "notification_id (bigint unsigned)",
+        "is_read (tinyint(1))",
+        "read_at (timestamp)",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ],
+    "users": [
+        "id (bigint unsigned)",
+        "name (varchar(255))",
+        "username (varchar(255))",
+        "email (varchar(255))",
+        "email_verified_at (timestamp)",
+        "password (varchar(255))",
+        "foto (varchar(255))",
+        "role (varchar(255))",
+        "nip (varchar(255))",
+        "nisn (varchar(255))",
+        "remember_token (varchar(100))",
+        "created_at (timestamp)",
+        "updated_at (timestamp)"
+    ]
+}

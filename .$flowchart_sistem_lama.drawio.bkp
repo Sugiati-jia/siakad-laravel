@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- OUTER BORDER -->
+    <mxCell id="border" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="10" y="10" width="660" height="920" as="geometry"/>
+    </mxCell>
+
+    <!-- TITLE -->
+    <mxCell id="title" value="&lt;b&gt;SISTEM LAMA - Pencatatan Absensi, Prestasi &amp; Pelanggaran Siswa (Manual)&lt;/b&gt;"
+      style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;"
+      vertex="1" parent="1">
+      <mxGeometry x="10" y="10" width="660" height="35" as="geometry"/>
+    </mxCell>
+
+    <!-- LANE HEADERS -->
+    <mxCell id="h1" value="&lt;b&gt;Guru&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="10" y="45" width="220" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="h2" value="&lt;b&gt;Tata Usaha&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="230" y="45" width="220" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="h3" value="&lt;b&gt;Wali Murid&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;fontColor=#333333;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="450" y="45" width="220" height="35" as="geometry"/>
+    </mxCell>
+
+    <!-- VERTICAL LANE DIVIDERS -->
+    <mxCell id="vd1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="230" y="45" width="1" height="885" as="geometry"/>
+    </mxCell>
+    <mxCell id="vd2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="450" y="45" width="1" height="885" as="geometry"/>
+    </mxCell>
+
+    <!-- ===================================================================== -->
+    <!-- FASE 1: PENCATATAN HARIAN (y=80 - 362)                                -->
+    <!-- ===================================================================== -->
+    <mxCell id="sec_p1" value="  Fase 1 : Pencatatan Data Harian (Guru)"
+      style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;align=left;"
+      vertex="1" parent="1">
+      <mxGeometry x="10" y="80" width="660" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Mulai -->
+    <mxCell id="G01" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="55" y="112" width="130" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Catat Absensi -->
+    <mxCell id="G02" value="Catat Data Absensi Siswa di Buku Harian" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="165" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Catat Prestasi -->
+    <mxCell id="G03" value="Catat Data Prestasi Siswa di Buku" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="235" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Catat Pelanggaran -->
+    <mxCell id="G04" value="Catat Data Pelanggaran Siswa di Buku" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="305" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Separator Phase 1 -> 2 -->
+    <mxCell id="sep12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#555555;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="10" y="368" width="660" height="2" as="geometry"/>
+    </mxCell>
+
+    <!-- ===================================================================== -->
+    <!-- FASE 2: AKHIR SEMESTER - REKAP (y=370 - 532)                          -->
+    <!-- ===================================================================== -->
+    <mxCell id="sec_p2" value="  Fase 2 : Akhir Semester - Rekap &amp; Penyerahan Data"
+      style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;align=left;"
+      vertex="1" parent="1">
+      <mxGeometry x="10" y="370" width="660" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Rekap Buku Besar -->
+    <mxCell id="G05" value="Rekap Data Absensi, Prestasi &amp; Pelanggaran di Buku Besar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="402" width="160" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Guru: Serahkan Rekap -->
+    <mxCell id="G06" value="Serahkan Rekap Data ke Tata Usaha" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="482" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- TU: Terima Rekap -->
+    <mxCell id="T01" value="Terima Rekap Data dari Guru" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="255" y="482" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Separator Phase 2 -> 3 -->
+    <mxCell id="sep23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#555555;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="10" y="544" width="660" height="2" as="geometry"/>
+    </mxCell>
+
+    <!-- ===================================================================== -->
+    <!-- FASE 3: TINDAK LANJUT (y=546 - 920)                                   -->
+    <!-- ===================================================================== -->
+    <mxCell id="sec_p3" value="  Fase 3 : Tindak Lanjut Oleh Tata Usaha"
+      style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;align=left;"
+      vertex="1" parent="1">
+      <mxGeometry x="10" y="546" width="660" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- TU: Periksa Rekap -->
+    <mxCell id="T02" value="Periksa Rekap Data Siswa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="255" y="577" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- TU: Ada Pelanggaran? -->
+    <mxCell id="T03" value="Ada Pelanggaran?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="275" y="645" width="120" height="70" as="geometry"/>
+    </mxCell>
+
+    <!-- WM: Selesai (Tidak ada pelanggaran) -->
+    <mxCell id="W_end1" value="Arsip Data Rekap (Tidak Ada Tindakan ke Wali Murid) - Selesai"
+      style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;"
+      vertex="1" parent="1">
+      <mxGeometry x="455" y="648" width="185" height="65" as="geometry"/>
+    </mxCell>
+
+    <!-- TU: Buat Surat Panggilan -->
+    <mxCell id="T04" value="Buat Surat Panggilan Orang Tua / Wali Murid (Manual)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="255" y="743" width="160" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- TU: Cetak & Kirim Surat -->
+    <mxCell id="T05" value="Cetak &amp; Kirim Surat Panggilan ke Wali Murid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="255" y="823" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- WM: Terima Surat -->
+    <mxCell id="W01" value="Terima Surat Panggilan (Fisik)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="465" y="743" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- WM: Hadiri Pertemuan -->
+    <mxCell id="W02" value="Hadiri Pertemuan di Sekolah" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="465" y="823" width="160" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- WM: Selesai -->
+    <mxCell id="W03" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="485" y="887" width="120" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- ===================================================================== -->
+    <!-- EDGES / ARROWS                                                          -->
+    <!-- ===================================================================== -->
+
+    <!-- Phase 1: Pencatatan -->
+    <mxCell id="eG01" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="G01" target="G02" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eG02" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="G02" target="G03" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eG03" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="G03" target="G04" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Phase 1 -> 2: Akhir Semester -->
+    <mxCell id="eG04" value="Akhir Semester" style="edgeStyle=orthogonalEdgeStyle;html=1;fontStyle=1;fontColor=#b85450;" edge="1" source="G04" target="G05" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Phase 2: Rekap & Serahkan -->
+    <mxCell id="eG05" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="G05" target="G06" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eG06" value="Serahkan" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="G06" target="T01" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Phase 2 -> 3 -->
+    <mxCell id="eT01" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="T01" target="T02" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eT02" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="T02" target="T03" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Diamond: Ada Pelanggaran? -->
+    <!-- Tidak (exit right) -->
+    <mxCell id="eT03a" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="T03" target="W_end1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Iya (exit bottom) -->
+    <mxCell id="eT03b" value="Iya / Ada Pelanggaran" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="T03" target="T04" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Iya branch: Surat Panggilan -->
+    <mxCell id="eT04a" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="T04" target="T05" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eT04b" value="Kirim ke Wali Murid" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="T04" target="W01" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- WM branch -->
+    <mxCell id="eW01" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="W01" target="W02" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="eW02" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="W02" target="W03" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+  </root>
+</mxGraphModel>

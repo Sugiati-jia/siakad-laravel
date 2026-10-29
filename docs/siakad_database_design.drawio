@@ -1,0 +1,834 @@
+<?xml version="1.0" ?>
+<mxfile host="Electron" modified="2026-06-14T13:30:57.000Z" agent="5.0" version="21.6.8" type="device">
+  <diagram id="cdm-page" name="Conceptual Data Model (CDM)">
+    <mxGraphModel dx="1500" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ta" value="Tahun Ajaran" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sem" value="Semester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kelas" value="Kelas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="siswa" value="Siswa" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="guru" value="Guru" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="100" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="mapel" value="Mata Pelajaran" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="tp" value="Tujuan
+Pembelajaran" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="750" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="nilai" value="Nilai" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="750" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="catatan" value="Catatan
+Wali Kelas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="ekskul" value="Ekstrakurikuler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kokurikuler" value="Kokurikuler (P5)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="750" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="rapor" value="Rapor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1100" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="jadwal" value="Jadwal Pelajaran" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1350" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_terdapat" value="Terdapat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="395" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_kelas_siswa" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="395" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_wali" value="Menjadi Wali" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_menulis" value="Menulis" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="95" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_catatan_siswa" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_mengajar" value="Mengajar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="250" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_memiliki_tp" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="580" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_menjadi_dasar" value="Menjadi Dasar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="730" y="745" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_memperoleh" value="Memperoleh" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="580" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_mengikuti_ekskul" value="Mengikuti" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="250" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_mengikuti_kokur" value="Mengikuti" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="580" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_rapor_catatan" value="Memuat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="95" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_rapor_ekskul" value="Memuat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_rapor_kokur" value="Memuat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="925" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_rapor_nilai" value="Memuat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="925" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_rapor_siswa" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_sem_rapor" value="Digunakan Pada" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="925" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_ta_sem" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="580" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_sem_jadwal" value="Digunakan Pada" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1150" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_jadwal_kelas" value="Terdapat Pada" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1225" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_jadwal_mapel" value="Memiliki" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1225" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_sem_nilai" value="Digunakan Pada" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#64748b;fontColor=#334155;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="ta" target="r_terdapat">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e1">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_terdapat" target="kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e2">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="kelas" target="r_kelas_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e3">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_kelas_siswa" target="siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e4">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="guru" target="r_wali">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e5">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_wali" target="kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6_t" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e6">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="guru" target="r_menulis">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e7">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_menulis" target="catatan">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e8">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="siswa" target="r_catatan_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e9">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_catatan_siswa" target="catatan">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e10">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="guru" target="r_mengajar">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e11_s" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e11">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_mengajar" target="mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e12_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e12">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="mapel" target="r_memiliki_tp">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e13_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e13">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_memiliki_tp" target="tp">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e14_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e14">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="tp" target="r_menjadi_dasar">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e15_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e15">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_menjadi_dasar" target="nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e16_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e16">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="siswa" target="r_memperoleh">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e17_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e17">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_memperoleh" target="nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e18_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e18">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="siswa" target="r_mengikuti_ekskul">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e19_s" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e19">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_mengikuti_ekskul" target="ekskul">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e20_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e20">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="siswa" target="r_mengikuti_kokur">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e21_s" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e21">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_mengikuti_kokur" target="kokurikuler">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e22_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e22">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="rapor" target="r_rapor_ekskul">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e23_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e23">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_rapor_ekskul" target="ekskul">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e24_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e24">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="rapor" target="r_rapor_kokur">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e25_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e25">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_rapor_kokur" target="kokurikuler">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e26_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e26">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="rapor" target="r_rapor_nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e27_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e27">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_rapor_nilai" target="nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e28_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e28">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="siswa" target="r_rapor_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e29_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e29">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_rapor_siswa" target="rapor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e30_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e30">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="sem" target="r_sem_rapor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e31_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e31">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_sem_rapor" target="rapor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e32_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e32">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="ta" target="r_ta_sem">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e33_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e33">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_ta_sem" target="sem">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e34_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e34">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="sem" target="r_sem_jadwal">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e35_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e35">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_sem_jadwal" target="jadwal">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e36_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e36">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="jadwal" target="r_jadwal_kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e37_s" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e37">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_jadwal_kelas" target="kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e38_t" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e38">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="jadwal" target="r_jadwal_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e39_s" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e39">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_jadwal_mapel" target="mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e40_t" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e40">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="sem" target="r_sem_nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e41_s" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e41">
+          <mxGeometry x="-0.7" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.5;endArrow=none;endFill=0;" edge="1" parent="1" source="r_sem_nilai" target="nilai">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e42_t" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#475569;fontSize=11;fontStyle=1;" vertex="1" connectable="0" parent="e42">
+          <mxGeometry x="0.7" relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="erd-page" name="Entity Relationship Diagram (ERD)">
+    <mxGraphModel dx="1500" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="2000">
+      <root>
+        <mxCell id="0_erd"/>
+        <mxCell id="1_erd" parent="0_erd"/>
+        <mxCell id="t_users" value="users" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="50" y="50" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_id" value="[PK]  id : bigint unsigned" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_users">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_name" value=" name : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_users">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_email" value=" email : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_users">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_username" value=" username : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_users">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_role" value=" role : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_users">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_users_password" value=" password : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_users">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru" value="guru" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="350" y="50" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_id_guru" value="[PK]  id_guru : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_guru">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_nip" value=" nip : varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_nama" value=" nama : varchar(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_gelar_depan" value=" gelar_depan : varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_gelar_belakang" value=" gelar_belakang : varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_user_id" value="[FK]  user_id : bigint unsigned" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa" value="siswa" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="350" y="300" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_id_siswa" value="[PK]  id_siswa : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_siswa">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_nisn" value=" nisn : varchar(10)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_siswa">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_nis" value=" nis : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_siswa">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_nama" value=" nama : varchar(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_siswa">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_id_kelas" value="[FK]  id_kelas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_siswa">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_siswa_user_id" value="[FK]  user_id : bigint unsigned" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_siswa">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas" value="kelas" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="650" y="50" width="220" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas_id_kelas" value="[PK]  id_kelas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_kelas">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas_nama_kelas" value=" nama_kelas : varchar(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kelas">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas_tingkat" value=" tingkat : varchar(5)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kelas">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas_id_wali_kelas" value="[FK]  id_wali_kelas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kelas">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kelas_id_tahun_ajaran" value="[FK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kelas">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ta" value="tahun_ajaran" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="950" y="50" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ta_id_tahun_ajaran" value="[PK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_ta">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ta_tahun_ajaran" value=" tahun_ajaran : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ta">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ta_semester_aktif" value=" semester_aktif : tinyint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ta">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ta_status" value=" status : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ta">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_sem" value="semester" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="1250" y="50" width="220" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_sem_id_semester" value="[PK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_sem">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_sem_nama" value=" nama : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_sem">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel" value="mapel" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="950" y="300" width="220" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel_id_mapel" value="[PK]  id_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_mapel">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel_kode_mapel" value=" kode_mapel : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_mapel">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel_nama_mapel" value=" nama_mapel : varchar(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_mapel">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel_kelompok_mapel" value=" kelompok_mapel : varchar(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_mapel">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_mapel_kkm" value=" kkm : tinyint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_mapel">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel" value="guru_mapel" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="650" y="300" width="220" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_guru_mapel" value="[PK]  id_guru_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_guru" value="[FK]  id_guru : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_mapel" value="[FK]  id_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_kelas" value="[FK]  id_kelas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_tahun_ajaran" value="[FK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_guru_mapel_status" value=" status : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_guru_mapel">
+          <mxGeometry y="150" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal" value="jadwal_pelajaran" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="950" y="600" width="220" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_jadwal" value="[PK]  id_jadwal : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_kelas" value="[FK]  id_kelas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_mapel" value="[FK]  id_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_guru" value="[FK]  id_guru : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_tahun_ajaran" value="[FK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_hari" value=" hari : varchar(15)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="150" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_jam_mulai" value=" jam_mulai : time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="170" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_jam_selesai" value=" jam_selesai : time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="190" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_jadwal_ruangan" value=" ruangan : varchar(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_jadwal">
+          <mxGeometry y="210" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp" value="tujuan_pembelajaran" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="1250" y="300" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_id_tujuan_pembelajaran" value="[PK]  id_tujuan_pembelajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_tp">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_id_mapel" value="[FK]  id_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_tp">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_kode_tp" value=" kode_tp : varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_tp">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_deskripsi" value=" deskripsi : text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_tp">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_tingkat" value=" tingkat : varchar(5)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_tp">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_tp_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_tp">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp" value="nilai_tp" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="650" y="600" width="220" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_nilai_tp" value="[PK]  id_nilai_tp : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_siswa" value="[FK]  id_siswa : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_mapel" value="[FK]  id_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_guru_mapel" value="[FK]  id_guru_mapel : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_id_tujuan_pembelajaran" value="[FK]  id_tujuan_pembelajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_th1" value=" nilai_th1 : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="150" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_th2" value=" nilai_th2 : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="170" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_uh1" value=" nilai_uh1 : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="190" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_uh2" value=" nilai_uh2 : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="210" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_as" value=" nilai_as : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="230" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_nilai_akhir_tp" value=" nilai_akhir_tp : decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="250" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_tp_status_nilai" value=" status_nilai : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_tp">
+          <mxGeometry y="270" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan" value="catatan_wali_kelas" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="350" y="600" width="220" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_id_catatan" value="[PK]  id_catatan : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_catatan">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_id_siswa" value="[FK]  id_siswa : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_id_tahun_ajaran" value="[FK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_catatan" value=" catatan : text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_sakit" value=" sakit : smallint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_izin" value=" izin : smallint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="150" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_alpa" value=" alpa : smallint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="170" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_catatan_status_kenaikan" value=" status_kenaikan : varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_catatan">
+          <mxGeometry y="190" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ekskul" value="ekstrakurikuler" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="50" y="950" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ekskul_id_ekstrakurikuler" value="[PK]  id_ekstrakurikuler : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_ekskul">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ekskul_nama" value=" nama : varchar(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ekskul">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ekskul_deskripsi" value=" deskripsi : text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ekskul">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_ekskul_status" value=" status : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_ekskul">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul" value="nilai_ekstrakurikuler" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="350" y="950" width="220" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_id_nilai_ekstra" value="[PK]  id_nilai_ekstra : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_id_siswa" value="[FK]  id_siswa : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_id_ekstrakurikuler" value="[FK]  id_ekstrakurikuler : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_id_tahun_ajaran" value="[FK]  id_tahun_ajaran : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_keterangan" value=" keterangan : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_nilai_ekskul_deskripsi" value=" deskripsi : text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_nilai_ekskul">
+          <mxGeometry y="150" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur" value="kokurikuler" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="650" y="1050" width="220" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur_id" value="[PK]  id : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_kokur">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur_siswa_id" value="[FK]  siswa_id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kokur">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kokur">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur_tahun_ajaran_id" value="[FK]  tahun_ajaran_id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kokur">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_kokur_deskripsi" value=" deskripsi : text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_kokur">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status" value="rapor_status" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#1e293b;strokeColor=#475569;fontColor=#ffffff;" vertex="1" parent="1_erd">
+          <mxGeometry x="950" y="1050" width="220" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_id_rapor_status" value="[PK]  id_rapor_status : bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;fontStyle=1;fontColor=#0f172a;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="30" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_siswa_id" value="[FK]  siswa_id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="50" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_id_semester" value="[FK]  id_semester : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="70" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_tahun_ajaran_id" value="[FK]  tahun_ajaran_id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_status" value=" status : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="110" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="t_rapor_status_dikirim_oleh" value=" dikirim_oleh : varchar(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#334155;fontSize=11;" vertex="1" parent="t_rapor_status">
+          <mxGeometry y="130" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_user_id" target="t_users_id">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_siswa_user_id" target="t_users_id">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_kelas_id_wali_kelas" target="t_guru_id_guru">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_kelas_id_tahun_ajaran" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_siswa_id_kelas" target="t_kelas_id_kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_mapel_id_guru" target="t_guru_id_guru">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_mapel_id_mapel" target="t_mapel_id_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_mapel_id_kelas" target="t_kelas_id_kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_mapel_id_tahun_ajaran" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_guru_mapel_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e11" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_tp_id_mapel" target="t_mapel_id_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_tp_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e13" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_jadwal_id_kelas" target="t_kelas_id_kelas">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e14" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_jadwal_id_mapel" target="t_mapel_id_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e15" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_jadwal_id_guru" target="t_guru_id_guru">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e16" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_jadwal_id_tahun_ajaran" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e17" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_jadwal_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e18" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_tp_id_siswa" target="t_siswa_id_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e19" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_tp_id_mapel" target="t_mapel_id_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e20" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_tp_id_guru_mapel" target="t_guru_mapel_id_guru_mapel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e21" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_tp_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e22" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_tp_id_tujuan_pembelajaran" target="t_tp_id_tujuan_pembelajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e23" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_catatan_id_siswa" target="t_siswa_id_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e24" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_catatan_id_tahun_ajaran" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e25" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_catatan_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e26" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_ekskul_id_siswa" target="t_siswa_id_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e27" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_ekskul_id_ekstrakurikuler" target="t_ekskul_id_ekstrakurikuler">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e28" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_ekskul_id_tahun_ajaran" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e29" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_nilai_ekskul_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e30" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_kokur_siswa_id" target="t_siswa_id_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e31" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_kokur_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e32" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_kokur_tahun_ajaran_id" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e33" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_rapor_status_siswa_id" target="t_siswa_id_siswa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e34" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_rapor_status_id_semester" target="t_sem_id_semester">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="r_e35" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;html=1;endArrow=dash;endSize=8;startArrow=dash;startSize=8;strokeColor=#475569;strokeWidth=1.2;" edge="1" parent="1_erd" source="t_rapor_status_tahun_ajaran_id" target="t_ta_id_tahun_ajaran">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
